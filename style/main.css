@@ -1,0 +1,90 @@
+:root{
+    /* PRiMARY */
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    
+    /* NEUTRAL */
+    --Very-dark-blue-main: hsl(217, 54%, 11%);
+    --Very-dark-blue-card: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+body{
+    background-color: var(--Very-dark-blue-main);
+}
+
+.text-soft-blue{
+    color: var(--Soft-blue);
+}
+
+.text-cyan{
+    color: var(--Cyan);
+}
+
+.hover-text-cyan:hover{
+    color: var(--Cyan) !important;
+    cursor: pointer;
+}
+
+.card{
+    width: 20em;
+    min-width: 10em;
+    background-color: var(--Very-dark-blue-card);
+}
+.card-body{
+    border-bottom: 1px solid var(--Very-dark-blue-line);
+}
+
+.card-img:hover::before{
+    content:url('./../images/icon-view.svg');
+    position: absolute;
+    top: 1;
+    left: 1;
+    width: 90%;
+    height: 51%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(178, 100%, 50%, 0.493);
+    z-index: 999;
+    opacity: 1;
+    border-radius: .3rem;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.card-img::before{
+    content:url('./../images/icon-view.svg');
+    position: absolute;
+    top: 1;
+    left: 1;
+    width: 90%;
+    height: 51%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    z-index: 999;
+    opacity: 0;
+
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
