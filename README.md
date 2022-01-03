@@ -13,21 +13,21 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ## Overview
 
-### The challenge
+### <a name="the-challenge"></a> The challenge
 
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
+### <a name="screenshot"></a> Screenshot
 
 ![page-preview](./images/page-preview.png)
 
-### Links
+### <a name="links"></a> Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution Here](https://www.frontendmentor.io/solutions/nft-preview-card-with-bootstrap-Dy0hk55yV)
+- Live Site URL: [Live Site Here](https://christopherjael.github.io/NFT-card-preview-solution/)
 
 
 ## <a name="built-with"></a> Built with 🔨
